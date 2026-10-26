@@ -4,9 +4,9 @@
   "private": true,
   "homepage": "lifecomradio.org.uk",
   "scripts": {
-    "dev": "node api.js && i18nexus pull && node server.js",
-    "build": "node api.js && i18nexus pull && next build",
-    "start": "node api.js && i18nexus pull && NODE_ENV=production node server.js",
+    "dev": "node init && i18nexus pull && node server.js",
+    "build": "node init && i18nexus pull && next build",
+    "start": "node init && i18nexus pull && NODE_ENV=production node server.js",
     "lint": "next lint"
   },
   "dependencies": {
